@@ -54,6 +54,10 @@ export function About() {
               GitHub
               <ArrowUpRight className="size-3.5 transition-transform duration-500 ease-[var(--ease-expo)] group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
             </a>
+            <a href={profile.links.orcid} target="_blank" rel="noreferrer" className={linkClass}>
+              ORCID
+              <ArrowUpRight className="size-3.5 transition-transform duration-500 ease-[var(--ease-expo)] group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
+            </a>
           </div>
         </div>
       </Container>

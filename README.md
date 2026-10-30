@@ -20,6 +20,8 @@
   &nbsp;·&nbsp;
   <a href="https://github.com/thisisdibbo">GitHub</a>
   &nbsp;·&nbsp;
+  <a href="https://orcid.org/0009-0002-2190-5426">ORCID</a>
+  &nbsp;·&nbsp;
   <a href="mailto:mr.d2003feb@gmail.com">Email</a>
 </p>
 
@@ -29,9 +31,10 @@ I design circuit boards and embedded instruments, from Mars rover power systems 
 
 I'm a fourth-year Electrical and Electronic Engineering student at the Islamic University of Technology (IUT) in
 Gazipur, Bangladesh. On **Project Altair**, IUT's Mars rover team, I lead power distribution, protection and PCB
-design for our competition rovers, along with embedded control and telemetry. I also build the instruments behind
-transportation research as an undergraduate research assistant, run my own simulation research in optical wireless
-communication and transient electronics, and compete in business case competitions.
+design for our competition rovers, along with embedded control and telemetry. As a **CREST 2027 research fellow** I
+work on stack-height limits in 3D ferroelectric memory. I also build the instruments behind transportation research
+as an undergraduate research assistant, run my own simulation research in optical wireless communication and transient
+electronics, and compete in business case competitions.
 
 This repository holds the source of my portfolio website, [thisisdibbo.github.io](https://thisisdibbo.github.io).
 
@@ -87,16 +90,23 @@ This repository holds the source of my portfolio website, [thisisdibbo.github.io
 **Also built:** FPV drones with digital and analog video · a laser engraver with a custom power control panel ·
 [DialIndicatorReader](https://github.com/thisisdibbo/DialIndicatorReader), which decodes a caliper protocol on an
 Arduino Nano · [Multi Serial Monitor](https://github.com/thisisdibbo/MultiserialMonitor) for logging several load
-cells at once · a Snake & Ladder game in 74xx logic · contributions to a Smart Audio Recognition System.
+cells at once · [Portable Display](https://github.com/thisisdibbo/Portable-Display), a 3D-printed enclosure for a DIY
+monitor · a Snake & Ladder game in 74xx logic · contributions to a
+[Smart Audio Recognition System](https://github.com/mfsunnyyy/humming-melody-matcher).
 
 ## Research
 
-- **Reflection models for optical IRS in Li-Fi** · [code](https://github.com/thisisdibbo/oirs-vlc-reflection-model)<br>
-  Showed that omitting the law of reflection overstates SNR by 6.3 dB, and derived the mirror optimum in closed form.<br>
-  <sub>Lead and corresponding author · manuscript in preparation for Optics Communications</sub>
+- **Closed-form mirror steering for optical IRS in Li-Fi** · [code](https://github.com/thisisdibbo/oirs-vlc-reflection-model)<br>
+  Showed that omitting the law of reflection overstates SNR by 6.3 dB, and that control latency (13.0 dB) costs far more
+  than blockage (1.1 dB). The closed-form mirror update runs five orders of magnitude faster than metaheuristic search.<br>
+  <sub>Lead and corresponding author · under peer review at Optical and Quantum Electronics (Springer)</sub>
+- **Stack-height limits in 3D FeRAM**<br>
+  Deriving how ferroelectric capacitance mismatch caps the stack height that current-mode non-destructive readout can
+  reliably read, with related work on floating-body effects and row hammer in 3D 1T-1C arrays.<br>
+  <sub>CREST 2027 Research Fellow · Advanced Memory + 3D Integration track · team of three</sub>
 - **Transient chips with on-chip AI**<br>
   Biodegradable semiconductor devices paired with on-chip inference, simulated from Silvaco TCAD to Cadence Virtuoso.<br>
-  <sub>Sole author · simulation study targeting a Q1 journal</sub>
+  <sub>Lead author · simulation study targeting a Q1 journal</sub>
 - **Instruments for transportation research** · [BreakProject](https://github.com/thisisdibbo/BreakProject)<br>
   Encoder and time-of-flight brake logging on a cycle rickshaw, and load-cell and dial-indicator capture in the lab.<br>
   <sub>Undergraduate research assistant · Dr. Nazmus Sakib, Civil & Environmental Engineering, IUT</sub>
@@ -121,6 +131,8 @@ On the [website](https://thisisdibbo.github.io/#cases), each deck opens in a sli
 
 ## Experience
 
+- **CREST 2027 Research Fellow**, Center for Research Excellence on Semiconductor Technology, run by Silicon River with
+  Neural Semiconductor (2026–). One of 16 fellows selected nationally, in the Advanced Memory + 3D Integration track.
 - **Project Altair**, IUT's Mars rover team: senior member of the electrical sub-team (2024–). On-site finalist at the
   University Rover Challenge, the International Rover Challenge and the Anatolian Rover Challenge in 2026; University
   Rover Challenge finalist (18th of 36) and International Rover Challenge on-site finalist in 2025.
@@ -136,8 +148,8 @@ On the [website](https://thisisdibbo.github.io/#cases), each deck opens in a sli
 | Area | Tools |
 | :-- | :-- |
 | **Hardware** | ESP32, Arduino, power electronics, H-bridge drivers, FPV builds, 3D printing |
-| **CAD & simulation** | EAGLE, EasyEDA, Proteus, PSpice, PSIM, MATLAB, COMSOL, Silvaco TCAD, Cadence Virtuoso, Lumerical FDTD, SolidWorks |
-| **Code** | C, C++, Python, MATLAB, Kotlin, LaTeX, PyQt6 / PySide6, Firebase, SQLite |
+| **CAD & simulation** | EAGLE, EasyEDA, Proteus, PSpice, PSIM, MATLAB, COMSOL, Silvaco TCAD, Sentaurus TCAD, Cadence Virtuoso, Lumerical FDTD, SolidWorks |
+| **Code** | C, C++, Python, MATLAB, Kotlin, LaTeX, PyTorch, PyQt6 / PySide6, Firebase, SQLite |
 | **Interfaces** | I²C, SPI, UART, 1-Wire, ESP-NOW, GPS, IMU, ToF, RFID, TFT and OLED |
 
 ## About this website

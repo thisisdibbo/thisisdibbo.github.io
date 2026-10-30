@@ -28,6 +28,11 @@ export function Footer() {
               GitHub
             </a>
           </li>
+          <li>
+            <a href={profile.links.orcid} target="_blank" rel="noreferrer" className={itemClass}>
+              ORCID
+            </a>
+          </li>
           <li className="text-[11px] font-medium uppercase tracking-[0.24em] text-muted-foreground">© 2026</li>
         </ul>
       </Container>

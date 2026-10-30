@@ -29,6 +29,7 @@ export const profile = {
   links: {
     github: GITHUB,
     linkedin: 'https://www.linkedin.com/in/md-mahin-rahman-5b720a34b',
+    orcid: 'https://orcid.org/0009-0002-2190-5426',
   },
 }
 
@@ -45,6 +46,7 @@ export const marquee = [
   'International Rover Challenge',
   'Anatolian Rover Challenge',
   'Project Altair',
+  'CREST 2027 Fellowship',
   'CaseMotion',
   'CennoBiz',
   'KBEC NEXUS',
@@ -74,8 +76,8 @@ export const services = [
   {
     index: '03',
     title: 'Research',
-    body: 'Simulation research in optical wireless communication and transient electronics. I showed that a common mirror model overstates SNR by 6.3 dB, and published the code.',
-    tools: 'Python · MATLAB · Silvaco TCAD · Cadence Virtuoso',
+    body: 'Simulation research in semiconductor memory, optical wireless communication and transient electronics. As a CREST 2027 fellow I work on 3D FeRAM; in Li-Fi, I showed that a common mirror model overstates SNR by 6.3 dB, and published the code.',
+    tools: 'Python · MATLAB · Silvaco & Sentaurus TCAD · Cadence Virtuoso',
     link: { label: 'Read the research', href: '#research' },
   },
   {
@@ -177,6 +179,13 @@ export const moreBuilds = [
     title: 'Smart Audio Recognition System',
     meta: 'Python · DSP · DTW · contributor',
     year: '2026',
+    href: 'https://github.com/mfsunnyyy/humming-melody-matcher',
+  },
+  {
+    title: 'Portable Display',
+    meta: '3D-printed enclosure for a DIY monitor · STL files',
+    year: '2025–26',
+    href: `${GITHUB}/Portable-Display`,
   },
   {
     title: 'DialIndicatorReader',
@@ -228,18 +237,26 @@ export type TalkItem = {
 
 export const research: TalkItem[] = [
   {
-    title: 'Reflection models for optical IRS in Li-Fi',
+    title: 'Closed-form mirror steering for optical IRS in Li-Fi',
     description:
-      'Showed that omitting the law of reflection overstates SNR by 6.3 dB, and derived the mirror optimum in closed form.',
-    venue: 'Lead & corresponding author · manuscript in preparation for Optics Communications',
+      'Showed that omitting the law of reflection overstates SNR by 6.3 dB, and that control latency (13.0 dB) costs far more than blockage (1.1 dB). The closed-form mirror update runs five orders of magnitude faster than metaheuristic search.',
+    venue: 'Lead & corresponding author · under peer review at Optical and Quantum Electronics (Springer)',
     href: `${GITHUB}/oirs-vlc-reflection-model`,
     thumb: researchOirs,
+  },
+  {
+    title: 'Stack-height limits in 3D FeRAM',
+    description:
+      'Deriving how ferroelectric capacitance mismatch caps the stack height that current-mode non-destructive readout can reliably read, with related work on floating-body effects and row hammer in 3D 1T-1C arrays.',
+    venue: 'CREST 2027 Research Fellow · Advanced Memory + 3D Integration track · team of three',
+    thumbLabel: '3D FeRAM',
+    thumbKicker: 'CREST 2027',
   },
   {
     title: 'Transient chips with on-chip AI',
     description:
       'Biodegradable semiconductor devices paired with on-chip inference, simulated from Silvaco TCAD to Cadence Virtuoso.',
-    venue: 'Sole author · simulation study targeting a Q1 journal',
+    venue: 'Lead author · simulation study targeting a Q1 journal',
     thumbLabel: 'TCAD → Virtuoso',
     thumbKicker: 'Simulation study',
   },
@@ -356,6 +373,11 @@ export const experience = [
     year: '2023–27',
   },
   {
+    title: 'CREST 2027 Research Fellow, one of 16 selected nationally',
+    org: 'Center for Research Excellence on Semiconductor Technology · Silicon River with Neural Semiconductor',
+    year: '2026–',
+  },
+  {
     title: 'Senior member, electrical sub-team',
     org: 'Project Altair, IUT Mars rover team',
     year: '2024–',
@@ -422,16 +444,16 @@ export const about = {
   paragraphs: [
     "I'm a fourth-year Electrical and Electronic Engineering student at the Islamic University of Technology in Gazipur, Bangladesh. I'm from Pabna.",
     "On Project Altair, IUT's Mars rover team, I lead power distribution, protection and PCB design for our competition rovers, along with embedded control and telemetry. As a research assistant in civil and environmental engineering, I build the instruments behind transportation research.",
-    "I also run my own simulation research in optical wireless communication and transient electronics, and I compete in business case competitions, most recently in the CaseMotion 2025 finale. I'm Joint Secretary of the IEEE Robotics and Automation Society chapter at IUT, and I speak Bangla and English.",
+    "As a CREST 2027 research fellow I work on stack-height limits in 3D ferroelectric memory. I also run my own simulation research in optical wireless communication, where my first paper is under peer review, and in transient electronics. I compete in business case competitions, most recently in the CaseMotion 2025 finale. I'm Joint Secretary of the IEEE Robotics and Automation Society chapter at IUT, and I speak Bangla and English.",
   ],
   toolkit: [
     { label: 'Hardware', value: 'ESP32, Arduino, power electronics, H-bridge drivers, FPV builds, 3D printing' },
     {
       label: 'CAD & simulation',
       value:
-        'EAGLE, EasyEDA, Proteus, PSpice, PSIM, MATLAB, COMSOL, Silvaco TCAD, Cadence Virtuoso, Lumerical FDTD, SolidWorks',
+        'EAGLE, EasyEDA, Proteus, PSpice, PSIM, MATLAB, COMSOL, Silvaco TCAD, Sentaurus TCAD, Cadence Virtuoso, Lumerical FDTD, SolidWorks',
     },
-    { label: 'Code', value: 'C, C++, Python, MATLAB, Kotlin, LaTeX, PyQt6 / PySide6, Firebase, SQLite' },
+    { label: 'Code', value: 'C, C++, Python, MATLAB, Kotlin, LaTeX, PyTorch, PyQt6 / PySide6, Firebase, SQLite' },
     { label: 'Interfaces', value: 'I²C, SPI, UART, 1-Wire, ESP-NOW, GPS, IMU, ToF, RFID, TFT and OLED' },
   ],
 }
