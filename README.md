@@ -30,8 +30,9 @@
 I design circuit boards and embedded instruments, from Mars rover power systems to research data loggers.
 
 I'm a fourth-year Electrical and Electronic Engineering student at the Islamic University of Technology (IUT) in
-Gazipur, Bangladesh. On **Project Altair**, IUT's Mars rover team, I lead power distribution, protection and PCB
-design for our competition rovers, along with embedded control and telemetry. As a **CREST 2027 research fellow** I
+Gazipur, Bangladesh. I'm Team Lead of **Project Altair**, IUT's Mars rover team. Before that, on the electrical
+sub-team, I led power distribution, protection and PCB design for our competition rovers, along with embedded control
+and telemetry. As a **CREST 2027 research fellow** I
 work on stack-height limits in 3D ferroelectric memory. I also build the instruments behind transportation research
 as an undergraduate research assistant, run my own simulation research in optical wireless communication and transient
 electronics, and compete in business case competitions.
@@ -133,7 +134,7 @@ On the [website](https://thisisdibbo.github.io/#cases), each deck opens in a sli
 
 - **CREST 2027 Research Fellow**, Center for Research Excellence on Semiconductor Technology, run by Silicon River with
   Neural Semiconductor (2026–). One of 16 fellows selected nationally, in the Advanced Memory + 3D Integration track.
-- **Project Altair**, IUT's Mars rover team: senior member of the electrical sub-team (2024–). On-site finalist at the
+- **Project Altair**, IUT's Mars rover team: Team Lead, previously senior member of the electrical sub-team (2024–). On-site finalist at the
   University Rover Challenge, the International Rover Challenge and the Anatolian Rover Challenge in 2026; University
   Rover Challenge finalist (18th of 36) and International Rover Challenge on-site finalist in 2025.
 - **Undergraduate research assistant**, transportation engineering, Dept. of Civil & Environmental Engineering, IUT (2025–)

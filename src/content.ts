@@ -378,8 +378,8 @@ export const experience = [
     year: '2026–',
   },
   {
-    title: 'Senior member, electrical sub-team',
-    org: 'Project Altair, IUT Mars rover team',
+    title: 'Team Lead',
+    org: 'Project Altair, IUT Mars rover team · previously senior member, electrical sub-team',
     year: '2024–',
   },
   {
@@ -443,7 +443,7 @@ export const about = {
   portrait: portraitAbout,
   paragraphs: [
     "I'm a fourth-year Electrical and Electronic Engineering student at the Islamic University of Technology in Gazipur, Bangladesh. I'm from Pabna.",
-    "On Project Altair, IUT's Mars rover team, I lead power distribution, protection and PCB design for our competition rovers, along with embedded control and telemetry. As a research assistant in civil and environmental engineering, I build the instruments behind transportation research.",
+    "I'm Team Lead of Project Altair, IUT's Mars rover team. Before that, on the electrical sub-team, I led power distribution, protection and PCB design for our competition rovers, along with embedded control and telemetry. As a research assistant in civil and environmental engineering, I build the instruments behind transportation research.",
     "As a CREST 2027 research fellow I work on stack-height limits in 3D ferroelectric memory. I also run my own simulation research in optical wireless communication, where my first paper is under peer review, and in transient electronics. I compete in business case competitions, most recently in the CaseMotion 2025 finale. I'm Joint Secretary of the IEEE Robotics and Automation Society chapter at IUT, and I speak Bangla and English.",
   ],
   toolkit: [
